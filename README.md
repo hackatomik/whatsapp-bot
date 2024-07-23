@@ -1,2 +1,2 @@
-# Whattsap_Bot
+# WhatsApp Bot
 Bot in development
