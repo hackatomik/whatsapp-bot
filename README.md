@@ -9,6 +9,8 @@
 **npm install ts-node --save-dev** // execute TypeScript files directly without having to compile manually. -
 **npm install @types/node --save-dev** // TypeScript types for Node.js. -
 **pm install @types/qrcode-terminal --save-dev** // TypeScript types for qr terminal.
+**npm i puppeteer** // manager -
+**npm i puppeteer-core** // manager
 # Urls and doc
 **github** *https://github.com/pedroslopez/whatsapp-web.js*. --
 **url of doc** *https://wwebjs.dev/guide/*.
