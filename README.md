@@ -13,5 +13,6 @@
 **npm i puppeteer-core** // manager
 # Urls and doc
 **github** *https://github.com/pedroslopez/whatsapp-web.js*. --
-**url of doc** *https://wwebjs.dev/guide/*.
+**url of doc** *https://wwebjs.dev/guide/*. --
+**url of puppeteer** *https://pptr.dev/*.
 
