@@ -15,4 +15,5 @@
 **github** *https://github.com/pedroslopez/whatsapp-web.js*. --
 **url of doc** *https://wwebjs.dev/guide/*. --
 **url of puppeteer** *https://pptr.dev/*.
-
+# notice
+*The **.env.example** file should be renamed to **.env** so that you do not upload credentials or important things to the repository to avoid any security breaches.
