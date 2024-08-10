@@ -11,10 +11,10 @@ const client = new Client({
 });
 
 client.initialize();
-client.on('loading_screen', (percent, message) => {
+client.on('loading_screen', (percent:any, message:String) => {
     console.log('LOADING SCREEN', percent, message);
 });
-client.on('qr', async (qr) => {
+client.on('qr', async (qr:any) => {
     console.log('QR RECEIVED', qr);
     const pairingCodeEnabled = false;
     if (pairingCodeEnabled && !pairingCodeRequested) {
