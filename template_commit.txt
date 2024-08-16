@@ -45,4 +45,45 @@
 #    sobre técnicas utilizadas, funcionalidad,
 #    casos de uso, docs técnicos, etc..
 # ----------------------------------------------------------
-MOJARRA
+
+
+VERCIONADO
+Según SemVer (Semantic Versioning), aquí hay una guía para aumentar el contador de cada sección de la versión:
+**Major (semver-major)**
+- Aumenta el contador de major cuando:
+- Se rompe la compatibilidad con versiones anteriores.
+- Se elimina una API obsoleta.
+- Se rehacen funcionalidades existentes de manera significativa.
+- Se cambia el modelo de datos o la estructura de la base de datos.
+- Se cambia la forma en que se interactúa con la aplicación.
+Ejemplos:
+- Se cambia la forma en que se autenticación de usuarios.
+- Se elimina una función que era fundamental para la aplicación.
+- Se cambia la estructura de la base de datos.
+**Minor**
+- Aumenta el contador de minor cuando:
+- Se agregan nuevas funcionalidades que no rompen la compatibilidad con versiones anteriores.
+- Se mejoran funcionalidades existentes de manera significativa.
+- Se agregan nuevas APIs o endpoints.
+Ejemplos:
+- Se agrega una nueva función para exportar datos.
+- Se mejora la velocidad de carga de la aplicación.
+- Se agrega un nuevo endpoint para una API.
+**Patch**
+- Aumenta el contador de patch cuando:
+- Se corrigen errores menores o vulnerabilidades de seguridad.
+- Se resuelven problemas de compatibilidad con versiones anteriores.
+- Se actualizan dependencias o bibliotecas.
+Ejemplos:
+- Se corrige un error que causaba que la aplicación se cayera.
+- Se actualiza una biblioteca para corregir una vulnerabilidad de seguridad.
+- Se resuelve un problema de compatibilidad con una versión anterior.
+**Build number (opcional)**
+- Aumenta el contador de build number cuando:
+- Se crea un nuevo build de la aplicación.
+- Se actualiza el pipeline de construcción.
+Ejemplos:
+- Se crea un nuevo build para una versión de producción.
+- Se actualiza el pipeline de construcción para incluir una nueva herramienta.
+
+Recuerda que la versión debe seguir el formato `MAJOR.MINOR.PATCH`, y que el contador de build number es opcional. Por ejemplo: `1.2.3` o `1.2.3-456`.
