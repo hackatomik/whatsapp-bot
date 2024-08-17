@@ -145,3 +145,5 @@ dist
 
 #WhattsapWeb
 .wwwebjs_auth/session
+
+package-lock.json
